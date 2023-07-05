@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-cats.css"/>
+    <title>Famous Cats</title>
+    <script defer src = "myfile-cats.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip-to-main-content-link">Skip to main content</a>
+    <header class="header">
+        <a href="index.html" class="header-logo-link" target="_blank" rel="homepage" aria-label="link back to homepage">
+            <img class="header-logo" alt="" src="photos/logo-photo.jpg" aria-label="the logo is a cat claw pic, click the pic can link back to the homepage">
+        </a>   
+        <h1 class="header-title">Famous Internet Cats</h1>           
+        <nav class="header-nav">
+            <button class="hamburger" aria-expanded="false" aria-label="click the hamburger button can open/close the nav menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="header-menu">
+                <li class="menu-item">
+                    <a class="menu-link" href="index.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="cats.html">Famous Cats</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="events.html">Cat Events</a>
+                </li> 
+            </ul>       
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <div class="cards">
+            <div class="card card1">
+                <h2 class="card-title">Jorts</h2>
+                <img class="card-pic" alt="a pic of Jorts" src="photos/cats-card1.jpg">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Dolor sit amet consectetur, adipisicing<button class="open" type="button">Subscribe</button>libero, commodi?</p>
+            </div>
+            <div class="card card2">
+                <h2 class="card-title">Jean</h2>
+                <img class="card-pic" alt="a pic of Jean" src="photos/cats-card2.jpg">
+                <p class="card-text">Cats also bring us a lot of joy, want to see more interesting "little fur balls"?</p> 
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing<button class="open" type="button">Subscribe</button>libero, commodi?</p>
+            </div>
+            <div class="card card3">
+                <h2 class="card-title">Maru</h2>
+                <img class="card-pic" alt="a pic of Maru" src="photos/cats-card3.jpg">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Dolor sit amet consectetur, adipisicing elit. Libero<button class="open" type="button">Subscribe</button>commodi?</p>
+            </div>
+            <div class="card card4">
+                <h2 class="card-title">Nyancat</h2>
+                <img class="card-pic" alt="a pic of Nyancat" src="photos/cats-card4.jpg">
+                <p class="card-text">Cats also bring us a lot of joy, want to see more interesting "little fur balls"?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing elit. Libero<button class="open" type="button">Subscribe</button>commodi?</p>
+            </div>
+            <div class="card card5">
+                <h2 class="card-title">Grumpy Cat</h2>
+                <img class="card-pic" alt="a pic of Grumpy" src="photos/cats-card5.jpg">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Dolor sit amet consectetur, adipisicing elit. Libero<button class="open" type="button">Subscribe</button>commodi?</p>
+            </div>
+            <div class="card card6">
+                <h2 class="card-title">Lil Bub</h2>
+                <img class="card-pic" alt="a pic of Lil Bub" src="photos/cats-card6.jpg">
+                <p class="card-text">Cats also bring us a lot of joy, want to see more interesting "little fur balls"?</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, commodi?</p>
+                <p class="card-text">Ipsum dolor sit amet consectetur, adipisicing elit. Libero<button class="open" type="button">Subscribe</button>commodi?</p>
+            </div>
+            <dialog class="modal">
+                <h3 class="form-title">Subscribe to the Latest Mews!</h3>
+                <form class="subscribe" action="/subscribe" method="POST"> 
+                    <div class="register-email"> 
+                        <label for="email">Email: </label> 
+                        <span class="require italic">*required</span>
+                        <input name="email" class="register-email-input" id="email" type="text">
+                        <span class="register-email-error"></span> 
+                    </div>         
+                    <div class="register-confirm"> 
+                        <label for="confirm-email">Confirm Email: </label> 
+                        <span class="require italic">*required</span>
+                        <input name="confirm-email" class="register-confirm-input" id="confirm" type="text"> 
+                        <span class="register-confirm-error"></span>
+                    </div>
+                    <button type="submit" class="subscribe-submit">Subscribe</button> 
+                    <button type="button" class="close">Cancel</button> 
+                </form>
+            </dialog>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="privacy.html">Privacy Policy</a></li>
+                <li class="nav-item"><a href="join.html">Work for Us</a></li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a href="social.html">Social Media</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
