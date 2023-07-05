@@ -1,7 +1,3 @@
-# Project 2
-
-**Due: Thu 
-
 ## Goal
 
 Provide ( in `public/`) the necessary HTML, CSS, and JS files to create the experience shown in the included images using the skills and best practices taught in class.
@@ -117,17 +113,6 @@ These are skills that I/TA(s) must be able to confirm you have an understanding 
 - A dialog element-based modal window
 - A hamburger menu using JS
 
-## Extra Credit
-
-Extra credit points should be worked on only after fulfilling all the other requirements, because the other requirements are more points
-- Transitions/animations on state/visibility
-  - Remember to include media queries to check prefers-reduced-motion
-- Create any additional pages that are linked to on this page and provide content that demonstrates other skills
-- Extra credit is based on these criteria:
-  - Are you demonstrating skills learned from class
-  - Do these demonstrations show sufficiently complex understanding
-  - Do these demonstrations provide benefit to the User Experience (UX)
-
 ## Additional Requirements
 - Follow the best practices from the course
 - Do not use HTML-based form validation (including type="email", use type="text" instead)
@@ -147,13 +132,7 @@ Extra credit points should be worked on only after fulfilling all the other requ
   - For any images that you personally own and used, list (in `images.txt`) the filename of that image as you have it in this project, and list your name as the owner.
   - Do NOT download and use random images from the internet/web.  Only use images from the listed sites (or you own) and that you have permission to use
 
-## Submission Instructions
-
-* start from the up-to-date main branch (`git checkout main; git pull origin main`)
-* Create a feature branch named 'project2' (`git checkout -b project2`)
-* Add the necessary files to have the required features
-  - running `npm install` will create a `package-lock.json` file and a `node_modules` directory.  These should NOT be added to your commit.
-* add, commit, and push the branch to github
+ push the branch to github
 * Create a PR to merge to main
 * Be sure to include the TA(s) and myself reviewer(s)
 
